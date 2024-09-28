@@ -4,9 +4,9 @@ using UnityEngine;
 [DefaultExecutionOrder(-1)]
 public class Game : MonoBehaviour
 {
-    public int width = 16;
-    public int height = 16;
-    public int mineCount = 32;
+    public int width = 114;
+    public int height = 64;
+    public int mineCount = 200;
 
     private Board board;
     private CellGrid grid;
